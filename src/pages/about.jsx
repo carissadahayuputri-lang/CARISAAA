@@ -26,11 +26,7 @@ export default function About() {
           dan aku juga takut sama kecoa
         </p>
       </div>
-      <nav>
-        <a href="/">Beranda</a>
-        <a href="/about">Isi</a>
-        <a href="/contact">Kontak</a>
-      </nav>
+     
     </div>
   );
 }
