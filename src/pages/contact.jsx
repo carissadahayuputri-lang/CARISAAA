@@ -16,12 +16,7 @@ export default function Contact() {
           </a>
         </li>
       </ul>
-      <nav>
-        <a href="/">Beranda</a>
-        <a href="/about">Isi</a>
-        <a href="/project">Project</a>
-        <a href="/contact">Kontak</a>
-      </nav>
+     
     </div>
   );
 }
