@@ -28,12 +28,7 @@ export default function Home() {
         <p>Haiii semuanyaa, kenalin aku Carisssaa</p>
         <p>Kenalan yuk sama aku</p>
 
-        <nav>
-          <a href="/">Beranda</a>
-          <a href="/about">Isi</a>
-          <a href="/project">Project</a>
-          <a href="/contact">Kontak</a>
-        </nav>
+
       </div>
     </>
   );
