@@ -31,9 +31,7 @@ export default function Project() {
           </div>
         </div>
       </section>
-      <nav>
-        <a href="/home">Kembali ke Beranda</a>
-      </nav>
+     
     </div>
   );
 }
