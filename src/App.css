@@ -1,0 +1,166 @@
+body {
+  margin: 50px;
+  background: url('download.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #c94f7c;
+  padding: 55px;
+}
+
+.container {
+  background-color: rgba(255, 240, 248, 0.95);
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #c94f7c;
+  text-align: center;
+  font-family:Tahoma;
+}
+
+#foto-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid pink;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #c94f7c;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Reset biar rapi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  background: url('download.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #c94f7c;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 240, 248, 0.95);
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(201, 79, 124, 0.5);
+  text-align: center;
+}
+
+/* Foto profile */
+#foto-profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffb6c1;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+#foto-profile:hover {
+  transform: scale(1.05);
+}
+
+/* Judul */
+h1 {
+  color: #c94f7c;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Navigasi */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #c94f7c;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+nav a:hover {
+  background-color: #ffb6c1;
+  color: white;
+  border-color: #c94f7c;
+}
+
+/* Section (Project & Skill) */
+section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+section h2 {
+  color: #c94f7c;
+  border-bottom: 2px solid #ffb6c1;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* List Project */
+section ul {
+  list-style: square;
+  padding-left: 20px;
+  color: #444;
+}
+
+/* Skill Container */
+.skill-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.skill-item {
+  text-align: center;
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(201, 79, 124, 0.2);
+  transition: transform 0.3s ease;
+  width: 120px;
+}
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item .logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.skill-item p {
+  font-weight: bold;
+  color: #c94f7c;
+}
